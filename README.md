@@ -2,7 +2,7 @@ Firstly, I wrote a Python script using requests and BeautifulSoup to get news he
 
 I used soup.find_all("h2") to collect the headline tags from the HTML page.
 
-After getting the text from tags, I saved the top 10 unique headlines into a file called headlines.txt.
+After getting the text from tags, I saved the headlines into a file called headlines.txt.
 
 I used conditions to check the response status and remove duplicates.
 
